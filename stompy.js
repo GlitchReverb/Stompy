@@ -319,16 +319,16 @@ function drawSprite(s, e) {
 function keyDown(e) {
 	e.preventDefault();
 	switch(e.keyCode) {
-		case 65: //left
+		case 37: //left
 			inputs.left = true;
 			break;
-		case 87: //up
+		case 38: //up
 			inputs.up = true;
 			break;
-		case 68: //right
+		case 39: //right
 			inputs.right = true;
 			break;
-		case 83: //down
+		case 40: //down
 			inputs.down = true;
 			break;
 	}
@@ -337,16 +337,16 @@ function keyDown(e) {
 function keyUp(e) {
 	e.preventDefault();
 	switch(e.keyCode) {
-		case 65: //left
+		case 37: //left
 			inputs.left = false;
 			break;
-		case 87: //up
+		case 38: //up
 			inputs.up = false;
 			break;
-		case 68: //right
+		case 36: //right
 			inputs.right = false;
 			break;
-		case 83: //down
+		case 40: //down
 			inputs.down = false;
 			break;
 	}
